@@ -463,6 +463,23 @@ section {
   color: var(--text-soft);
 }
 
+/* Research-interest cards carry a title only; no supporting copy. */
+.grid-topics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 18px;
+}
+
+.topic--plain {
+  padding: 24px 22px;
+}
+
+.topic--plain h3 {
+  margin: 0;
+  font-size: 17px;
+  color: var(--accent);
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;
