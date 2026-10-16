@@ -1,7 +1,6 @@
 # 臧子茗 · 学术主页
 
-一个**零依赖、零构建**的静态学术主页，视觉与信息结构参考了
-[Zhoujun Ye 的学术主页](https://zhoujun-ye.github.io)：顶部导航、侧边个人资料栏，以及 About Me、Research Interests、News、Publications 等学术主页板块。
+一个**零依赖、零构建**的静态学术主页：顶部导航、侧边个人资料栏，以及 About Me、Research Interests、News、Publications 等学术主页板块。
 
 采用纯 HTML/CSS/JS，无需 Ruby、Jekyll 或构建步骤；**双击 `index.html` 即可打开**，也可以直接托管到 GitHub Pages / Netlify / Vercel。
 
