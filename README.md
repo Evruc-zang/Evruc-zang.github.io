@@ -75,6 +75,19 @@ npx serve .
 
 ## 部署到 GitHub Pages
 
+站点仓库为 **`Evruc-zang/Evruc-zang.github.io`**，已开启 Pages（`main` 分支 `/ (root)`），
+线上地址：**https://evruc-zang.github.io/**
+
+本地已初始化 git 并绑定 origin，更新内容后直接推送即可自动重新发布：
+
+```powershell
+git add .
+git commit -m "Update homepage"
+git push
+```
+
+从零开始的完整流程（仅换机器或换仓库时需要）：
+
 ```powershell
 git init
 git add .gitignore README.md index.html publications.html projects.html cv.html assets
@@ -84,9 +97,8 @@ git remote add origin https://github.com/Evruc-zang/Evruc-zang.github.io.git
 git push -u origin main
 ```
 
-然后在仓库 **Settings → Pages** 中选择 `main` 分支的 `/ (root)` 目录即可。
-
-> 请先在 GitHub 创建名为 `Evruc-zang.github.io` 的仓库。仓库 Pages 设置为 `main` 分支的 `/ (root)` 后，主页地址为 `https://Evruc-zang.github.io`。
+推送后在仓库 **Settings → Pages** 中选择 `main` 分支的 `/ (root)` 目录。
+仓库名必须是 `<用户名>.github.io`，站点才会发布在根地址。
 
 ## 备注
 
