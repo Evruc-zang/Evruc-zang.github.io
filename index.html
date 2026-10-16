@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title data-en="Ziming Zang | Academic Homepage" data-zh="臧子茗 Ziming Zang | 学术主页">Ziming Zang | Academic Homepage</title>
+<meta name="description" data-en="Ziming Zang — final-year undergraduate in Information and Computing Science at Nanjing Agricultural University, joining the Key Laboratory of Computational Biology, Chinese Academy of Sciences, for a combined M.Sc.–Ph.D. programme. Research interests: statistical genetics, computational biology and applied mathematics." data-zh="臧子茗（Ziming Zang），南京农业大学信息与计算科学专业大四本科生，即将赴中国科学院计算生物学重点实验室硕博连读。研究方向：统计遗传、计算生物学与应用数学。" content="Ziming Zang — final-year undergraduate in Information and Computing Science at Nanjing Agricultural University, joining the Key Laboratory of Computational Biology, Chinese Academy of Sciences." />
+<meta name="author" content="Ziming Zang" />
+<meta name="theme-color" content="#0b6e5f" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230b6e5f'/><text x='16' y='23' font-family='Georgia,serif' font-size='20' fill='%23ffffff' text-anchor='middle'>Z</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<script>
+  /* Applied before first paint: restores the visitor's theme and language.
+     Defaults live in the static markup (`data-lang="en"`), so the page still
+     renders correctly with JavaScript disabled. */
+  (function () {
+    var root = document.documentElement;
+    try {
+      var theme = window.localStorage.getItem("zz-theme") ||
+        (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      root.setAttribute("data-theme", theme);
+    } catch (e) { root.setAttribute("data-theme", "light"); }
+    try {
+      var lang = window.localStorage.getItem("zz-lang") === "zh" ? "zh" : "en";
+      root.setAttribute("data-lang", lang);
+      root.setAttribute("lang", lang === "zh" ? "zh-CN" : "en");
+    } catch (e) { /* keep the English defaults */ }
+  })();
+</script>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="navbar__inner">
+    <a class="brand" href="index.html">
+      <span data-lang-block="en">Ziming Zang<small>Academic Homepage</small></span>
+      <span data-lang-block="zh">臧子茗<small>Ziming Zang · Academic</small></span>
+    </a>
+    <button class="icon-btn navtoggle" data-nav-toggle aria-expanded="false" aria-label="Toggle navigation menu">
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h14M3 10h14M3 14h14" /></svg>
+    </button>
+    <nav class="navlinks" data-navlinks aria-label="Main navigation">
+      <a href="index.html"><span data-lang-block="en">Home</span><span data-lang-block="zh">首页</span></a>
+      <a href="publications.html"><span data-lang-block="en">Publications</span><span data-lang-block="zh">论文发表</span></a>
+      <a href="projects.html"><span data-lang-block="en">Projects</span><span data-lang-block="zh">科研项目</span></a>
+      <a href="cv.html"><span data-lang-block="en">CV</span><span data-lang-block="zh">简历</span></a>
+    </nav>
+    <button class="icon-btn lang-btn" data-lang-toggle title="切换到中文" aria-label="切换到中文">
+      <span data-lang-block="en">中</span><span data-lang-block="zh">EN</span>
+    </button>
+    <button class="icon-btn" data-theme-toggle aria-pressed="false" title="Switch to dark mode" aria-label="Switch to dark mode">
+      <svg class="theme-icon theme-icon--moon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 12.4A7 7 0 0 1 7.6 3.5a7 7 0 1 0 8.9 8.9z" /></svg>
+      <svg class="theme-icon theme-icon--sun" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="10" cy="10" r="3.6" /><path d="M10 2v2M10 16v2M2 10h2M16 10h2M4.4 4.4l1.4 1.4M14.2 14.2l1.4 1.4M15.6 4.4l-1.4 1.4M5.8 14.2l-1.4 1.4" /></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <div class="layout home-layout">
+    <aside class="side home-profile">
+      <div class="card panel profile-card">
+        <div class="intro__photo">
+          <img src="assets/img/portrait.jpg" alt="Portrait of Ziming Zang" width="640" height="640"
+               data-alt-en="Portrait of Ziming Zang" data-alt-zh="臧子茗的个人照片" />
+        </div>
+        <h1 class="intro__name">
+          <span data-lang-block="en">Ziming Zang<span class="intro__sub">Nanjing Agricultural University</span></span>
+          <span data-lang-block="zh">臧子茗<span class="intro__sub">Ziming Zang</span></span>
+        </h1>
+        <p class="intro__title" data-lang-block="en">Information and Computing Science · B.Sc. Candidate (expected 2027)</p>
+        <p class="intro__title" data-lang-block="zh">信息与计算科学 · 本科在读（2023 – 2027 预计）</p>
+        <p class="intro__affil" data-lang-block="en">College of Science, Nanjing Agricultural University</p>
+        <p class="intro__affil" data-lang-block="zh">南京农业大学理学院</p>
+        <ul class="socials">
+          <li>
+            <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=7rkV1fwAAAAJ" target="_blank" rel="noopener">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 3 1.8 7 10 11l8.2-4L10 3z" /><path d="M5.2 9v4.2c0 1.5 2.1 2.6 4.8 2.6s4.8-1.1 4.8-2.6V9" /></svg>
+              Google Scholar
+            </a>
+          </li>
+          <li>
+            <a href="https://www.researchgate.net/profile/Ziming-Zang" target="_blank" rel="noopener">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="10" cy="10" r="7.8" /><path d="M7.2 14V6h2.9a2.3 2.3 0 0 1 0 4.6H7.2" /><path d="M10.6 10.6 13.2 14" /></svg>
+              ResearchGate
+            </a>
+          </li>
+          <li>
+            <a href="mailto:zangziming@stu.njau.edu.cn">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="1.8" y="4" width="16.4" height="12" rx="2" /><path d="M2.5 5.4 10 11l7.5-5.6" /></svg>
+              Email
+            </a>
+          </li>
+          <li>
+            <a href="tel:+8613770635867">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.6 2.6h2.6l1.3 3.3-1.8 1.3a10.6 10.6 0 0 0 5.1 5.1l1.3-1.8 3.3 1.3v2.6a1.4 1.4 0 0 1-1.5 1.4A14.6 14.6 0 0 1 4.2 4.1a1.4 1.4 0 0 1 1.4-1.5z" /></svg>
+              Phone
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="card panel">
+        <h3 data-lang-block="en">Research Interests</h3>
+        <h3 data-lang-block="zh">研究兴趣</h3>
+        <ul class="tags">
+          <li><span data-lang-block="en">Statistical Genetics</span><span data-lang-block="zh">统计遗传</span></li>
+          <li><span data-lang-block="en">Computational Biology</span><span data-lang-block="zh">计算生物学</span></li>
+          <li><span data-lang-block="en">Applied Mathematics</span><span data-lang-block="zh">应用数学</span></li>
+        </ul>
+      </div>
+      <div class="card panel">
+        <h3 data-lang-block="en">Contact</h3>
+        <h3 data-lang-block="zh">联系方式</h3>
+        <dl>
+          <dt>Email</dt>
+          <dd><a href="mailto:zangziming@stu.njau.edu.cn">zangziming@stu.njau.edu.cn</a></dd>
+          <dt>Phone</dt>
+          <dd><a href="tel:+8613770635867">(+86) 137-7063-5867</a></dd>
+          <dt data-lang-block="en">Address</dt>
+          <dt data-lang-block="zh">通讯地址</dt>
+          <dd data-lang-block="en">No. 1 Weigang, Xuanwu District, Nanjing, Jiangsu, China<br />Nanjing Agricultural University</dd>
+          <dd data-lang-block="zh">江苏省南京市玄武区卫岗 1 号<br />南京农业大学</dd>
+        </dl>
+      </div>
+      <div class="card panel">
+        <h3 data-lang-block="en">Quick Links</h3>
+        <h3 data-lang-block="zh">快捷入口</h3>
+        <p><a href="cv.html">→ <span data-lang-block="en">Full CV</span><span data-lang-block="zh">完整简历（CV）</span></a></p>
+        <p><a href="publications.html">→ <span data-lang-block="en">Publications</span><span data-lang-block="zh">论文发表</span></a></p>
+        <p><a href="projects.html">→ <span data-lang-block="en">Projects</span><span data-lang-block="zh">科研项目</span></a></p>
+      </div>
+    </aside>
+    <div class="home-content">
+      <section id="about">
+        <div class="section__head">
+          <h2>
+            <span data-lang-block="en">About Me</span>
+            <span data-lang-block="zh">关于我</span>
+          </h2>
+        </div>
+        <div class="card panel">
+          <p class="intro__bio" data-lang-block="en">
+            I am a final-year undergraduate in Information and Computing Science at Nanjing Agricultural University, and
+            will join the <a href="https://sinh.cas.cn/jsswx/yjtd/" target="_blank" rel="noopener">Key Laboratory of Computational Biology</a>, <a href="https://www.cas.cn/" target="_blank" rel="noopener">Chinese Academy of Sciences</a> (formerly the CAS-MPG
+            Partner Institute for Computational Biology, CAS-MPG PICB) for a combined M.Sc.–Ph.D. programme (2027
+            cohort). My current research focuses on <strong>statistical genetics</strong>,
+            <strong>computational biology</strong> and applied mathematics. Going forward, I will focus on depression
+            intervention, contributing to the precise identification of small-effect genes.
+          </p>
+          <p class="intro__bio" data-lang-block="zh">
+            我目前是南京农业大学信息与计算科学专业大四本科生，即将赴<a href="https://sinh.cas.cn/jsswx/yjtd/" target="_blank" rel="noopener">中国科学院计算生物学重点实验室</a>（原中科院-马普学会
+            计算生物学伙伴研究所，CAS-MPG PICB）硕博连读（27 级），目前研究聚焦于<strong>统计遗传</strong>、
+            <strong>计算生物学</strong>与应用数学。未来我将聚焦抑郁症的干预，为微效基因精准识别做出贡献。
+          </p>
+        </div>
+      </section>
+
+      <!-- ==================================================== research === -->
+      <section id="research">
+        <div class="section__head">
+          <h2>
+            <span data-lang-block="en">Research Interests</span>
+            <span data-lang-block="zh">研究兴趣</span>
+          </h2>
+          <span class="en" data-lang-block="zh">Research Interests</span>
+        </div>
+        <div class="grid-2">
+          <article class="topic">
+            <h3 data-lang-block="en">Statistical Genetics</h3>
+            <h3 data-lang-block="zh">统计遗传</h3>
+            <p data-lang-block="en">Compressed variance-component mixed models that place additive, dominance and polygenic background effects into a unified Bayesian framework; a two-stage strategy combining genome-wide scanning with machine learning to identify small-effect polygenes from sparse solutions — towards depression intervention and the precise identification of small-effect genes.</p>
+            <p data-lang-block="zh">压缩方差组分混合模型，将加性、显性效应及其多基因背景纳入统一的 Bayesian 框架；结合全基因组扫描与机器学习的两阶段策略，从稀疏解中识别微效多基因，并面向抑郁症干预，服务于微效基因的精准识别。</p>
+            <ul class="tags"><li>GWAS</li><li>Bayesian Modelling</li><li>Small-effect Genes</li></ul>
+          </article>
+          <article class="topic">
+            <h3 data-lang-block="en">Computational Biology</h3>
+            <h3 data-lang-block="zh">计算生物学</h3>
+            <p data-lang-block="en">Molecular dynamics simulation and computational molecular science; a workflow based on topology-graph algorithms for gene regulatory network (GRN) construction and key transcription factor (TF) identification, developed during the SPONGE Summer School and well received by researchers at the Shenzhen Bay Laboratory.</p>
+            <p data-lang-block="zh">分子动力学模拟与计算分子科学；提出基于拓扑图算法的基因调控网络（GRN）构建与关键转录因子（TF）识别工作流，于 SPONGE 暑期学校期间完成，获深圳湾实验室研究员一致好评。</p>
+            <ul class="tags"><li>Molecular Dynamics</li><li>GRN</li><li>Transcription Factors</li></ul>
+          </article>
+          <article class="topic">
+            <h3 data-lang-block="en">Applied Mathematics &amp; Optimisation Modelling</h3>
+            <h3 data-lang-block="zh">应用数学与优化建模</h3>
+            <p data-lang-block="en">A solid grounding in mathematical analysis, functional analysis and operations research; skilled at abstracting real-world problems into models such as equidistant spirals and single-objective optimisation to solve trajectory computation, collision avoidance and path design problems.</p>
+            <p data-lang-block="zh">数学分析、泛函分析与运筹学基础扎实，擅长将实际问题抽象为等距螺线、单目标优化等模型，求解轨迹计算、碰撞避免与路径设计等问题。</p>
+            <ul class="tags"><li>Optimisation</li><li>Mathematical Modelling</li><li>Numerical Computing</li></ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- ======================================================== news === -->
+      <section id="news">
+        <div class="section__head">
+          <h2>
+            <span data-lang-block="en">News</span>
+            <span data-lang-block="zh">最新动态</span>
+          </h2>
+          <span class="en" data-lang-block="zh">News</span>
+        </div>
+        <div class="card panel">
+          <ul class="news">
+            <li>
+              <span class="date">2026.08</span>
+              <span data-lang-block="en">As a visiting student, visited Westlake University for the SPONGE Summer School (co-organised by Xingshi Zhisuan, Peking University, Westlake University and the Shenzhen Bay Laboratory), focusing on molecular dynamics simulation and computational molecular science; the workflow I proposed — topology-graph-based GRN (gene regulatory network) construction and key TF (transcription factor) identification — was well received by researchers at the Shenzhen Bay Laboratory.</span>
+              <span data-lang-block="zh">作为 visiting student 访问西湖大学，参加 SPONGE 暑期学校（由星使智算、北京大学、西湖大学及深圳湾实验室共同组织），聚焦分子动力学模拟与计算分子科学；本人提出的基于拓扑图算法的 GRN 构建与关键 TF 识别工作流，获深圳湾实验室研究员一致好评。</span>
+            </li>
+            <li>
+              <span class="date">2026.05</span>
+              <span data-lang-block="en">The National Undergraduate Innovation and Entrepreneurship Training Program project passed its national-level completion review.</span>
+              <span data-lang-block="zh">国家级大学生创新创业训练计划项目通过国家级结项验收。</span>
+            </li>
+            <li>
+              <span class="date">2026.03</span>
+              <span data-lang-block="en">A paper I contributed to was published in <em>Plants</em> (JCR Q1, IF 4.7): <em>Genome-Wide Association Study of Yield-Related Traits and Photoperiod Response in Rice</em>.</span>
+              <span data-lang-block="zh">参与完成的论文发表于 <em>Plants</em>（JCR Q1, IF 4.7）：<em>Genome-Wide Association Study of Yield-Related Traits and Photoperiod Response in Rice</em>。</span>
+            </li>
+            <li>
+              <span class="date">2026.02</span>
+              <span data-lang-block="en">As a visiting student, attended the winter school course “AI &amp; GPT” at Nanyang Technological University, Singapore, under the supervision of <a href="https://sites.google.com/view/wyb" target="_blank" rel="noopener">Wei Yang Bryan Lim</a>; the project I led, “Real-time Emotion Detection System: A Lightweight CNN Approach”, was graded <strong>DISTINCTION</strong>.</span>
+              <span data-lang-block="zh">作为访问学生参加新加坡南洋理工大学冬校《AI &amp; GPT》课程（导师：<a href="https://sites.google.com/view/wyb" target="_blank" rel="noopener">Wei Yang Bryan Lim</a>），主持的《Real-time Emotion Detection System: A Lightweight CNN Approach》项目获评 <strong>DISTINCTION</strong>。</span>
+            </li>
+            <li>
+              <span class="date">2025.09</span>
+              <span data-lang-block="en">Joined the research group as a research assistant, working on genome-wide association analysis and candidate gene discovery for yield-related traits in rice (supervisor: <a href="https://faculty.njau.edu.cn/zhangjin/" target="_blank" rel="noopener">Zhang Jin</a>).</span>
+              <span data-lang-block="zh">加入课题组担任科研助理，开展水稻产量性状的全基因组关联分析与候选基因挖掘（导师：<a href="https://faculty.njau.edu.cn/zhangjin/" target="_blank" rel="noopener">张瑾</a>）。</span>
+            </li>
+            <li>
+              <span class="date">2025.08</span>
+              <span data-lang-block="en">Attended the 2025 Smart Agriculture Industry–University–Research Ecosystem Annual Conference &amp; Smart Agriculture Innovation Competition in Kunming, Yunnan; presented on behalf of team AiPhenomics and won the <strong>National Third Prize (undergraduate track)</strong>.</span>
+              <span data-lang-block="zh">于云南昆明参加 2025 智慧农业产学研生态年会暨智慧农业创意大赛，代表 AiPhenomics 团队作报告并获<strong>本科生赛道国家三等奖</strong>。</span>
+            </li>
+            <li>
+              <span class="date">2025.05</span>
+              <span data-lang-block="en">The National Undergraduate Innovation and Entrepreneurship Training Program project was approved, with me as <strong>second principal investigator</strong> (supervisor: <a href="https://www.researchgate.net/profile/Shichao-Jin" target="_blank" rel="noopener">Jin Shichao</a>).</span>
+              <span data-lang-block="zh">国家级大学生创新创业训练计划项目立项，担任<strong>第二负责人</strong>（导师：<a href="https://www.researchgate.net/profile/Shichao-Jin" target="_blank" rel="noopener">金时超</a>）。</span>
+            </li>
+            <li>
+              <span class="date">2024.12</span>
+              <span data-lang-block="en">Won the <strong>Third Prize of Jiangsu Province</strong> in the 16th Chinese Mathematics Competition (Mathematics Track).</span>
+              <span data-lang-block="zh">获第 16 届全国大学生数学竞赛（数学类）<strong>江苏省三等奖</strong>。</span>
+            </li>
+            <li>
+              <span class="date">2024.11</span>
+              <span data-lang-block="en">Won the <strong>National Second Prize</strong> in the 2024 Higher Education Press Cup National College Students Mathematical Contest in Modeling.</span>
+              <span data-lang-block="zh">获 2024 年高教社杯全国大学生数学建模竞赛<strong>国家二等奖</strong>。</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ================================================ publications === -->
+      <section id="publications">
+        <div class="section__head">
+          <h2>
+            <span data-lang-block="en">Selected Publications</span>
+            <span data-lang-block="zh">代表论文</span>
+          </h2>
+          <span class="en" data-lang-block="zh">Selected Publications</span>
+        </div>
+        <div class="card panel">
+          <ol class="pub-list">
+            <li class="pub">
+              <h3 class="pub__title">Genome-Wide Association Study of Yield-Related Traits and Photoperiod Response in Rice</h3>
+              <p class="pub__authors">Zang, Z.; Liu, C.; Wang, Z.; Fan, C.; <strong>Chen, J.*</strong></p>
+              <p class="pub__venue"><em>Plants</em>, 2026, 15(6): 875.</p>
+              <ul class="badges">
+                <li class="badge badge--accent">JCR Q1</li>
+                <li class="badge">IF 4.7</li>
+                <li class="badge badge--ghost" data-lang-block="en">First author</li>
+                <li class="badge badge--ghost" data-lang-block="zh">第一作者</li>
+              </ul>
+              <div class="pub-actions">
+                <a class="pub-action" href="https://www.mdpi.com/2223-7747/15/6/875" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11.5 2.5H5.5a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5V7l-4.5-4.5z" /><path d="M11.5 2.5V7H16" /><path d="M7 10.8h6M7 13.6h4" /></svg>
+                  Abs
+                </a>
+                <a class="pub-action" href="https://doi.org/10.3390/plants15060875" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8.6 11.4a3 3 0 0 0 4.3 0l2.4-2.4a3 3 0 0 0-4.3-4.3l-1.2 1.2" /><path d="M11.4 8.6a3 3 0 0 0-4.3 0l-2.4 2.4a3 3 0 0 0 4.3 4.3l1.2-1.2" /></svg>
+                  DOI
+                </a>
+                <a class="pub-action" href="https://www.mdpi.com/2223-7747/15/6/875/pdf" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2.8v9.4" /><path d="M6.4 8.6 10 12.2l3.6-3.6" /><path d="M3.8 16.2h12.4" /></svg>
+                  PDF
+                </a>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <span>© <span data-year>2026</span> <span data-lang-block="en">Ziming Zang · Nanjing Agricultural University</span><span data-lang-block="zh">臧子茗 Ziming Zang · 南京农业大学</span></span>
+    <span data-lang-block="en">Layout inspired by Zhoujun Ye's academic homepage</span>
+    <span data-lang-block="zh">版式参考周君叶的学术主页</span>
+  </div>
+</footer>
+
+<button class="totop" data-to-top aria-label="Back to top">
+  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 16V5M5 10l5-5 5 5" /></svg>
+</button>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>
